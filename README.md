@@ -102,6 +102,9 @@ python3 generate_qr.py <link to site>
 
 ## For a dynamic QR code
 
-link the code to [index.html](index.html)
+Adjust config.txt so it contains your link.
 
-Be sure to adjust the link that is specified in index.html!
+Run generate_qr.py, and link the code to [index.html](index.html). Your repo must be a public page in order for this to work.
+
+Now, you can adjust the link in config.txt to change the linked destination.
+
