@@ -108,7 +108,7 @@ Adjust [config.txt](config.txt) so it contains your link.
 
 Run generate_qr.py, and link the code to [index.html](index.html), (e.g., https://graciezeller.github.io/canvassing_qr/index.html). Your repo must be a public page in order for this to work.
 
-Now, you can adjust the link in [config.txt](config.txt) to change the linked destination.
+Now, you can adjust the link in [config.txt](config.txt) to change the linked destination without breaking the QR code.
 
 > **Note:** The current fallback specified in [index.html](index.html) is [https://myvote.wi.gov/en-us/My-Municipal-Clerk](https://myvote.wi.gov/en-us/My-Municipal-Clerk).
 
