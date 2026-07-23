@@ -1,5 +1,7 @@
 # Generate and link QR code
 
+Originally used so that petition signors could double-check their municipality, becuase street address $\neq$ municipality.
+
 ## Python code to generate a QR code
 Save code chunk below as `generate_qr.py`
 
