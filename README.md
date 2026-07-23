@@ -102,4 +102,4 @@ python3 generate_qr.py <link to site>
 
 ## For a dynamic QR code
 
-link to (canvassing_qr/index.html)
+link to [canvassing_qr/index.html](canvassing_qr/index.html)
