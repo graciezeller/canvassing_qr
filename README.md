@@ -1,7 +1,7 @@
 # Generate and link QR code
 
 ## Python code to generate a QR code
-Save as `generate_qr.py`
+Save code chunk below as `generate_qr.py`
 
 <details>
 <summary>Click to expand code</summary>
