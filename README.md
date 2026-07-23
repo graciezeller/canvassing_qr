@@ -108,3 +108,5 @@ Run generate_qr.py, and link the code to [index.html](index.html), (e.g., https:
 
 Now, you can adjust the link in [config.txt](config.txt) to change the linked destination.
 
+> **Note:** The current fallback specified in [index.html](index.html) is [https://myvote.wi.gov/en-us/My-Municipal-Clerk](https://myvote.wi.gov/en-us/My-Municipal-Clerk).
+
