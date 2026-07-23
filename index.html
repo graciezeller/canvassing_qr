@@ -3,15 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Redirecting...</title>
-
-  <!-- Redirect for browsers without JavaScript -->
+  <!-- Fallback for browsers without JavaScript (kept in sync with config.txt manually) -->
   <meta http-equiv="refresh" content="0; url=https://myvote.wi.gov/en-us/My-Municipal-Clerk">
-
   <!-- Canonical destination -->
   <link rel="canonical" href="https://myvote.wi.gov/en-us/My-Municipal-Clerk">
-
   <script>
-    window.location.replace("https://myvote.wi.gov/en-us/My-Municipal-Clerk");
+    fetch("config.txt")
+      .then(response => response.text())
+      .then(url => {
+        url = url.trim();
+        window.location.replace(url);
+      })
+      .catch(() => {
+        // If config.txt fails to load, fall back to the hardcoded URL
+        window.location.replace("https://myvote.wi.gov/en-us/My-Municipal-Clerk");
+      });
   </script>
 </head>
 <body>
@@ -21,7 +27,6 @@
       <a href="https://myvote.wi.gov/en-us/My-Municipal-Clerk">click here</a>.
     </p>
   </noscript>
-
   <p>
     Redirecting to MyVote Wisconsin…
     If nothing happens,
