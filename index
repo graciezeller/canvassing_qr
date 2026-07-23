@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+
+  <!-- Redirect for browsers without JavaScript -->
+  <meta http-equiv="refresh" content="0; url=https://myvote.wi.gov/en-us/My-Municipal-Clerk">
+
+  <!-- Canonical destination -->
+  <link rel="canonical" href="https://myvote.wi.gov/en-us/My-Municipal-Clerk">
+
+  <script>
+    window.location.replace("https://myvote.wi.gov/en-us/My-Municipal-Clerk");
+  </script>
+</head>
+<body>
+  <noscript>
+    <p>
+      JavaScript is disabled. If you are not redirected automatically,
+      <a href="https://myvote.wi.gov/en-us/My-Municipal-Clerk">click here</a>.
+    </p>
+  </noscript>
+
+  <p>
+    Redirecting to MyVote Wisconsin…
+    If nothing happens,
+    <a href="https://myvote.wi.gov/en-us/My-Municipal-Clerk">click here</a>.
+  </p>
+</body>
+</html>
