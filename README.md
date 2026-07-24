@@ -107,7 +107,7 @@ In terminal, run:
 python3 generate_qr.py <link to site>
 ```
 
-## For a dynamic QR code
+## For a dynamic QR code (requires githib repo)
 
 Adjust [config.txt](config.txt) so it contains your link.
 
