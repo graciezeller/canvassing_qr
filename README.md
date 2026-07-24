@@ -97,6 +97,11 @@ if __name__ == "__main__":
 
 </details>
 
+Before running, make sure you have the correct dependencies
+```bash
+python3 -m pip install "qrcode[pil]"
+```
+
 In terminal, run:
 ```bash
 python3 generate_qr.py <link to site>
