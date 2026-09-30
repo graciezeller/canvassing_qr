@@ -1,6 +1,6 @@
 # Generate and link QR code
 
-Originally used so that petition signors could double-check their municipality, becuase street address does not always match municipality.
+Originally used so that petition signers could double-check their municipality, becuase street address does not always match municipality!!!
 
 ## Python code to generate a QR code
 
@@ -16,7 +16,7 @@ In terminal, run:
 python3 generate_qr.txt <link to site>
 ```
 
-## For a dynamic QR code (requires githib repo)
+## Set up dynamic QR code
 
 Adjust [config.txt](config.txt) so it contains your link.
 
